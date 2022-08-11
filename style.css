@@ -2,7 +2,7 @@
 *{
     margin: 0px;
 }
-.header{
+.header {
     display: flex;
     background-color: rgb(50, 167, 145);
     align-items: center;
@@ -16,6 +16,7 @@
     width: 5%;
 
 }
+
 main {
   display: flex;
 }
@@ -24,4 +25,8 @@ main {
   display: flex;
   width: 675px;
   flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
 }
