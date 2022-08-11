@@ -21,3 +21,11 @@ function testCheckbox() {
   });
 }
 testCheckbox();
+
+function contador() {
+  let n = document.getElementById('textarea').value;
+  n = 500 - n.length;
+  document.getElementById('counter').innerText = n;
+}
+
+document.getElementById('textarea').addEventListener('keyup', contador);
