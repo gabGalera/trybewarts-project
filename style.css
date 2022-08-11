@@ -1,20 +1,21 @@
-
-*{
-    margin: 0px;
+* {
+  margin: 0px;
 }
 .header {
-    display: flex;
-    background-color: rgb(50, 167, 145);
-    align-items: center;
-    padding: 15px;
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  align-items: center;
+  justify-content:space-around;
+  padding: 15px;
 }
 .header h1 {
-    color: white;
-    
+  color: white;
 }
 .header img {
-    width: 5%;
-
+  width: 5%;
+}
+.trybewarts-login {
+    display: flex;
 }
 
 main {
@@ -28,5 +29,5 @@ main {
 }
 
 #trybewarts-forms-logo {
-  height: 500px;
-}
+    height: 500px;
+  }
