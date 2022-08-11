@@ -32,6 +32,9 @@ main {
   flex-direction: column;
 }
 
+#nome-sobrenome {
+  flex-direction: row;
+}
 #trybewarts-forms-logo {
   height: 500px;
   display: flex;
