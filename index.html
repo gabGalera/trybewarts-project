@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
+  </head>
   <body>
     <header class="header">
       <img
@@ -16,31 +16,52 @@
       />
       <h1 id="trybewarts-header-title">Trybewarts</h1>
       <form class="trybewarts-login" action="">
-          <input id="input-email" type="text" name="email" placeholder="Email">
-          <input id="input-password" type="password" name="password" placeholder="Senha">
-          <button id="login-btn" >Entrar</button>
-    </form>
+        <input id="input-email" type="text" name="email" placeholder="Email" />
+        <input
+          id="input-password"
+          type="password"
+          name="password"
+          placeholder="Senha"
+        />
+        <button id="login-btn">Entrar</button>
+      </form>
     </header>
     <main>
-        <form action="" id="evaluation-form">
-            <input type="text" id="input-name" placeholder="Nome">
-            <input type="text" id="input-lastname" placeholder="Sobrenome">
-            <input type="text" id="input-email" placeholder="Email">
-            <select name="" id="house">
-                <option id="gitnoria-house" value="Gitnória">Gitnória</option>
-                <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
-                <option id="corvinode-house" value="Corvinode">Corvinode</option>
-                <option id="pytherina-house" value="Pytherina">Pytherina</option>
-            </select>
+      <form action="" id="evaluation-form">
+        <div id="nome-sobrenome">
+          <input type="text" id="input-name" placeholder="Nome" />
+          <input type="text" id="input-lastname" placeholder="Sobrenome" />
+        </div>
+        <div id="email-casa">
+          <input type="text" id="input-email" placeholder="Email" />
+          <label for="house">Casa:</label>
+          <select name="house" id="house">
+            <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+            <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+            <option id="corvinode-house" value="Corvinode">Corvinode</option>
+            <option id="pytherina-house" value="Pytherina">Pytherina</option>
+          </select>
+        </div>
 
-
-            <label class="textarea" for="text-area">Deixe seu comentário:</label>
-            <textarea name="" id="text-area" cols="30" rows="10" maxlength="500"></textarea>
-            <label id="label-infos" for="agreement">Você concorda com o uso das informações acima?</label>
-            <input id="agreement" type="checkbox" name="" id="">
-            <button id="submit-btn" type="submit">Enviar</button>
-        </form> 
-        <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
+        <label class="textarea" for="text-area">Deixe seu comentário:</label>
+        <textarea
+          name=""
+          id="text-area"
+          cols="30"
+          rows="10"
+          maxlength="500"
+        ></textarea>
+        <label id="label-infos" for="agreement"
+          >Você concorda com o uso das informações acima?</label
+        >
+        <input id="agreement" type="checkbox" name="" id="" />
+        <button id="submit-btn" type="submit">Enviar</button>
+      </form>
+      <img
+        src="images/trybewarts-colored.svg"
+        alt=""
+        id="trybewarts-forms-logo"
+      />
     </main>
     <footer><p>Direitos reservados à Trybewarts©</p></footer>
     <script src="./script.js"></script>

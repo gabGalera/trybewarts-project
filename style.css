@@ -32,6 +32,10 @@ main {
   flex-direction: column;
 }
 
+#nome-sobrenome , #email-casa {
+  flex-direction: row;
+}
+
 #trybewarts-forms-logo {
   height: 500px;
   display: flex;
