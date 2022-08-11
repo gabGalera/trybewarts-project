@@ -9,4 +9,15 @@ function validateForm() {
   });
 }
 validateForm();
-console.log('asa');
+
+function testCheckbox() {
+  const checkbox = document.getElementById('agreement');
+  const button = document.getElementById('submit-btn');
+  button.disabled = true;
+  checkbox.addEventListener('change', () => {
+    if (checkbox.checked === true) {
+      button.disabled = false;
+    } else button.disabled = true;
+  });
+}
+testCheckbox();
